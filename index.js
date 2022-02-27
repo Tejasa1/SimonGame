@@ -9,7 +9,7 @@ var level=0;
 
 $(document).click(function(){
     if(!started){
-        started = ture;
+        started = true;
         $("h1").text("Level "+ level);
         nextSequence();
     }
