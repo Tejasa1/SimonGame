@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background: rgb(130, 134, 134);
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+.red-btn{
+    background-color: red;
+}
+
+.blue-btn{
+    background: blue;
+}
+
+.yellow-btn{
+    background: yellow;
+}
+
+.green-btn{
+    background: green;
+}
