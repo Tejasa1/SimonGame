@@ -19,7 +19,7 @@ $(".btn").click(function() {
     var userChosedColor = this.id;
     userClickedPattern.push(userChosedColor);
     playSound(userChosedColor);
-    console.log(userChosedColor);
+    //console.log(userChosedColor);
     checkAnswer(userClickedPattern.length-1);
 });
 
@@ -37,7 +37,7 @@ function checkAnswer(currentLevel){
     else{
         playSound("wrong");
         console.log("fail");
-        $("h1").html("Wrong");
+        $("h1").html("Wrong. Press any key to play again.");
         startOver();
     }
 }
